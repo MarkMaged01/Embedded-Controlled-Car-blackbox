@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Pico",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${userHome}/.pico-sdk/sdk/2.0.0/**"
+            ],
+            "forcedInclude": [
+                "${userHome}/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h",
+                "${workspaceFolder}/build/generated/pico_base/pico/config_autogen.h"
+            ],
+            "defines": [],
+            "compilerPath": "${userHome}/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc.exe",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-arm"
+        },{
+        "name": "Arduino",
+        "includePath": [
+            "${workspaceFolder}/**",
+            "C:/Users/YourUsername/Documents/Arduino/hardware/raspberrypi/pico/cores/arduino/**",
+            "C:/Users/YourUsername/Documents/Arduino/libraries/**"
+        ],
+        "defines": [
+            "__AVR__",
+            "ARDUINO_ARCH_AVR",
+            "ARDUINO={arduino version}",
+            "ARDUINO_BOARD={board name}"
+        ],
+        "compilerPath": "path_to_your_toolchain/gcc",
+        "intelliSenseMode": "gcc-x64",
+        "cStandard": "c11",
+        "cppStandard": "c++17"
+    }
+    ],
+    "version": 4
+}

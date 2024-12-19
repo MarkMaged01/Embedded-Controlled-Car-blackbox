@@ -587,7 +587,7 @@ int main()
                 auto1 = false;
                 
             }
-            if (receive_buffer[0] == 'F' || receive_buffer[0] == 'B' || receive_buffer[0] == 'R' || receive_buffer[0] == 'L' || receive_buffer[0] == 'L')
+            if (receive_buffer[0] == 'F' || receive_buffer[0] == 'B' || receive_buffer[0] == 'R' || receive_buffer[0] == 'L' || receive_buffer[0] == 'S')
             {
                 auto1 = false;
             }
